@@ -1,0 +1,23 @@
+body {
+	margin-top: 60px;
+	margin-bottom: 200px;
+}
+
+.cardPersonali {
+	min-width: none;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+.gray {
+	background-color: #dadada;
+}
