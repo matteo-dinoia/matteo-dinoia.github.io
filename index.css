@@ -1,7 +1,8 @@
 body {
 	padding-top: 100px;
 	padding-bottom: 200px;
-
+}
+.body-colorful {
 	background: #e8cbc0;
 	background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
 	background: linear-gradient(to right, #e8cbc0, #636fa4);
@@ -25,4 +26,16 @@ html {
 
 .gray {
 	background-color: #dadada;
+}
+
+.image-icon {
+	padding: 0px;
+	height: 2rem;
+	width: 2rem;
+	border-radius: 50%;
+}
+
+.red-text,
+.red-text:hover {
+	color: red;
 }
