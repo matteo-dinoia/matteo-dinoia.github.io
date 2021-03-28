@@ -41,8 +41,14 @@ html {
 }
 .dark-dropdown-item {
 	color: #dadada !important;
+	background-color: #212529 !important;
 }
 
 .dark-dropdown-item:hover {
 	color: black !important;
+	background-color: #dadada !important;
+}
+.dark-dropdown-item:active {
+	color: black !important;
+	background-color: white !important;
 }
