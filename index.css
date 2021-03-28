@@ -39,10 +39,10 @@ html {
 .red-text:hover {
 	color: red;
 }
-
 .dark-dropdown-item {
 	color: #dadada !important;
 }
+
 .dark-dropdown-item:hover {
 	color: black !important;
 }
