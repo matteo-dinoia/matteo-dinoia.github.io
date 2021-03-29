@@ -10,15 +10,16 @@
                 integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
                 crossorigin="anonymous"
             />
-    
+			<script src="login.js"></script>
             <link href="index.css" rel="stylesheet" />
             <link href="login.css" rel="stylesheet" />
-    
+
             <title>Login</title>
 	</head>
-	<body class="bg-dark">
+	<body class="body-colorful">
+
 		<main class="form-signin">
-			<form>
+			<div>
 				
 				<h1 class="h3 fw-normal mb-5">Please sign in</h1>
 
@@ -26,7 +27,7 @@
 					<input
 						type="email"
 						class="form-control"
-						id="floatingInput"
+						id="nameInput"
 						placeholder="name@example.com"
 					/>
 					<label for="floatingInput">Email address</label>
@@ -35,18 +36,20 @@
 					<input
 						type="password"
 						class="form-control"
-						id="floatingPassword"
+						id="passwordInput"
 						placeholder="Password"
+						
 					/>
 					<label for="floatingPassword">Password</label>
 				</div>
 
 				
-				<button class="w-100 btn btn-lg btn-primary mt-5" type="submit">
+				<button class="w-100 btn btn-lg btn-primary mt-5" onClick="onClickLogin()" >
 					Sign in
 				</button>
+
 				<p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-			</form>
+			</div>
 		</main>
 	</body>
 </html>
