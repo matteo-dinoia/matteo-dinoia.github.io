@@ -3,7 +3,7 @@ body {
 	padding-bottom: 150px;
 }
 .body-colorful {
-	background: linear-gradient(to right, #575757, #999999);
+	background: linear-gradient(to right, #09a0ab80, #f77580);
 	min-height: 100vh;
 }
 
