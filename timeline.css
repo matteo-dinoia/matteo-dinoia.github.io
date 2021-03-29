@@ -13,7 +13,6 @@ ul.timeline:before {
 	left: 16px;
 	width: 4px;
 	height: 100%;
-	z-index: 400;
 	border-radius: 1rem;
 }
 
@@ -32,6 +31,5 @@ li.timeline-item::before {
 	left: 11px;
 	width: 14px;
 	height: 14px;
-	z-index: 400;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }

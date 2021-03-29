@@ -3,9 +3,7 @@ body {
 	padding-bottom: 200px;
 }
 .body-colorful {
-	background: #e8cbc0;
-	background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
-	background: linear-gradient(to right, #e8cbc0, #636fa4);
+	background: linear-gradient(to right, #575757, #999999);
 	min-height: 100vh;
 }
 
