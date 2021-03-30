@@ -1,7 +1,8 @@
 body {
 	padding-top: 100px;
-	padding-bottom: 150px;
+	padding-bottom: 200px;
 }
+
 .body-colorful {
 	background: linear-gradient(to right, #09a0ab80, #f77580);
 	min-height: 100vh;
