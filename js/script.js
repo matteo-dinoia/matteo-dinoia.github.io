@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 //CONSTANT
 //var basePath="";
-var basePath="https://github.com/matteo-dinoia/matteo-dinoia.github.io/tree/master/js/";
+var basePath="https://raw.githubusercontent.com/matteo-dinoia/matteo-dinoia.github.io/master/js/";
 
 //HOME PAGE LOADING
 function loadHome(){
