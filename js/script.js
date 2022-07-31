@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 //CONSTANT
-//var basePath="";
-var basePath="https://github.com/matteo-dinoia/matteo-dinoia/js/";
+var basePath="";
+//var basePath="https://github.com/matteo-dinoia/matteo-dinoia/js/";
 
 //HOME PAGE LOADING
 function loadHome(){
