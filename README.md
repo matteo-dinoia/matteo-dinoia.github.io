@@ -1,2 +1,0 @@
-# MySite
-A site test
