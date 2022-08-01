@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 //CONSTANT FOR GETTING FILE
-var basePath="";
+var basePath=""; //for debug
 if(window.location.hostname ==="matteo-dinoia.github.io"){
     basePath="https://raw.githubusercontent.com/matteo-dinoia/matteo-dinoia.github.io/master/js/";
 }
