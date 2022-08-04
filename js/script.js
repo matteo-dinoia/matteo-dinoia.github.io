@@ -32,6 +32,8 @@ function loadPhotoGallery(){
             var height=Math.floor(100+Math.random() * 400);
             var temp=utilsHtml.replacePlaceholder(photoElement,
                 "{{height}}", height+"px");
+            temp=utilsHtml.replacePlaceholder(temp,
+                "{{content}}", i);
             
             //Deciding column
             if(col[0]<=col[1]|| col[0]<=col[2]) selCol=0;
