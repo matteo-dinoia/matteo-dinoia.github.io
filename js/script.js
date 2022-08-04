@@ -31,7 +31,7 @@ function loadPhotoGallery(){
         for(var i=0; i<53; i++){
             var height=Math.floor(100+Math.random() * 400);
             var temp=utilsHtml.replacePlaceholder(photoElement, "{{height}}", height+"px");
-            temp=utilsHtml.replacePlaceholder(temp, "{{content}}", i);
+            temp=utilsHtml.replacePlaceholder(temp, "{{content}}", ""+i);
             
             //Deciding column
             console.log(col);
