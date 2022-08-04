@@ -26,19 +26,17 @@ function loadPhotoGallery(){
         utilsHtml.insertInnerHtml("#main-content", photoGallery); 
 
         //Gallery
-        var col=[0, 0, 0];
+        var col=[0, 0, 0, 0];
         var selCol=0;
         for(var i=0; i<53; i++){
             var height=Math.floor(100+Math.random() * 400);
-            var temp=utilsHtml.replacePlaceholder(photoElement,
-                "{{height}}", height+"px");
-            temp=utilsHtml.replacePlaceholder(temp,
-                "{{content}}", i);
+            var temp=utilsHtml.replacePlaceholder(photoElement, "{{height}}", height+"px");
+            temp=utilsHtml.replacePlaceholder(temp, "{{content}}", i);
             
             //Deciding column
-            if(col[0]<=col[1]|| col[0]<=col[2]) selCol=0;
-            else if(col[1]<=col[2]) selCol=1;
-            else selCol=2
+            console.log(col);
+            selCol=minIndex(col);
+            console.log(selCol);
             
             //inserting
             col[selCol]+=height;
@@ -47,3 +45,19 @@ function loadPhotoGallery(){
     });
     });
 };
+
+function minIndex(array){
+    if(array===undefined || array.length===undefined ||array.length<=0){
+        return;
+    }
+    var res=0;
+    var min=array[0];
+    for(var i=1; i<array.length; i++){
+        if(array[i]<min){
+            res=i;
+            min=array[i];
+        }
+    }
+
+    return res;
+}
