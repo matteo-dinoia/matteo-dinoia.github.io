@@ -16,6 +16,19 @@ utilsHttp.request=function (url, responseHandler){
 
 //HTML MODIFICATION
 window.utilsHtml={};
-utilsHtml.insertInnerHtml=function(selector, html){
-    document.querySelector(selector).innerHTML=html;
+utilsHtml.insertInnerHtml=function(selector, html, append){
+    if(append===undefined){append==false;}
+    if(html===undefined){html="";}
+    if(append){
+        document.querySelector(selector).innerHTML+=html;
+    }
+    else{
+        document.querySelector(selector).innerHTML=html;
+    }
+    
+};
+
+utilsHtml.replacePlaceholder=function(string, placeholderName, textToSubstitute){
+    var res=string.replace(placeholderName, textToSubstitute);
+    return res;
 };
